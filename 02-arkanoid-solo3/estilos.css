@@ -1,0 +1,17 @@
+body {
+
+  background-color: #223;
+  color: white;
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  background: url('./bkg.png') repeat;
+  border: solid 2px white;
+  border-bottom: transparent;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arkanoid</title>
+</head>
+
+<style>
+  body {
+    background-color: #222;
+    color: red;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  main {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  canvas {
+    border: white 4px solid;
+    border-bottom: transparent;
+    background-color: black;
+  }
+</style>
+
+
+<body>
+  <main>
+
+    <canvas>
+    </canvas>
+  </main>
+</body>
+
+</html>
+
+<script>
+  const canvas = document.querySelector('canvas')
+  canvas.width = 800
+  canvas.height = 600
+
+  const ballRadius = 4 
+</script>
